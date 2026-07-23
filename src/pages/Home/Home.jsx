@@ -3,6 +3,7 @@ import "./Home.css"
 import Header from '../../components/Header/Header'
 import ExploreMenu from '../../components/Exploremenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDIsplay/FoodDisplay'
+import AppDownload from '../../components/AppDownload/AppDownload'
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
         <Header />
         <ExploreMenu category={category} setCategory={setCategory} />
         <FoodDisplay category={category}/>
+        <AppDownload />
     </div>
   )
 }
