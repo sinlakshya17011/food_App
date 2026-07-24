@@ -18,7 +18,7 @@ const Cart = () => {
 
  if (!hasCartItems) {
  return (
- <div className="cart empty-cart">
+ <div className="cart-empty-cart">
  <h2>No Data in Cart</h2>
  <p>Your cart is currently empty.</p>
  <button onClick={() => navigate("/")}>Continue Shopping</button>

@@ -56,12 +56,19 @@
 
 .navbar-search-icon .dot{
     position: absolute;
-    min-height: 10px;
-    min-width: 10px;
-    background-color: tomato;
-    border-radius: 50px;
     top: -8px;
     right: -8px;
+    width: 18px;
+    height: 18px;
+    background-color: tomato;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
 }
 
 .profile-btn {
