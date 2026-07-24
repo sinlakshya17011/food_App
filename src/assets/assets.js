@@ -17,6 +17,7 @@ import facebook_icon from './facebook_icon.png'
 import app_store from './app_store.png'
 import play_store from './play_store.png'
 import cross_icon from './cross_icon.png'
+import profile_icon from './profile_icon.png'
 
 
 import menu_1 from './menu_1.png'
@@ -80,7 +81,8 @@ export const assets ={
     facebook_icon,
     app_store,
     play_store,
-    cross_icon
+    cross_icon,
+    profile_icon
 }
 
 export const menu_list = [
