@@ -4,11 +4,11 @@ import { assets } from "../../assets/assets";
 import { StoreContext } from "../../Context/StoreContext";
 
 const LoginPopup = ({ setShowLogin }) => {
-  const { setUser } = useContext(StoreContext);
+  const { setUser } = useContext(StoreContext)
   const [currState, SetCurrState] = useState("Login");
   const handleLogin = () => {
     if (currState === "Login") {
-        setUser(true);
+        setUser();
     }
   };
   return (

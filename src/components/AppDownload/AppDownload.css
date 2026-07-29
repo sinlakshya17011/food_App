@@ -22,3 +22,19 @@
 .app-download-platform img:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 750px) {
+    .app-download{
+        margin-top: 70px;
+    }
+
+    .app-download-platform{
+        flex-wrap: wrap;
+        margin-top: 24px;
+    }
+
+    .app-download-platform img{
+        width: min(42vw, 170px);
+        max-width: none;
+    }
+}

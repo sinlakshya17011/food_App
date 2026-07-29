@@ -2,7 +2,7 @@
     display: flex;
     align-items: start;
     justify-content: space-between;
-    grid-auto-flow: 50px;
+    gap: 50px;
     margin-top: 100px;
 }
 
@@ -39,4 +39,48 @@ gap: 10px;
 
 .btnpay{
     margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+    .place-order{
+        gap: 30px;
+    }
+
+    .placeorder-left .title{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .place-order{
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .placeorder-left,
+    .placeorder-right{
+        max-width: 100%;
+    }
+
+    .multi-fields{
+        flex-direction: column;
+    }
+
+    .placeorder-left input{
+        padding: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .placeorder-left .title{
+        font-size: 24px;
+    }
+
+    .place-order{
+        gap: 20px;
+    }
+
+    .btnpay{
+        width: 100%;
+    }
 }

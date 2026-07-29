@@ -60,3 +60,18 @@
     font-size: 14px;
 }
 }
+
+@media (max-width:750px) {
+    .explore-menu{
+        gap: 14px;
+    }
+
+    .explore-menu h1{
+        font-size: 26px;
+    }
+
+    .explore-menu-list{
+        gap: 18px;
+        margin: 16px 0;
+    }
+}

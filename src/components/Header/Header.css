@@ -35,7 +35,7 @@
     font-weight: 500;
     padding: 1vw 2.3vw;
     background-color: white;
-    font-size: max(1vw 13px);
+    font-size: max(1vw,13px);
     border-radius: 50px;
 }
 
@@ -48,6 +48,12 @@
 
 @media (max-width:750px) {
 
+    .header{
+     height: 52vw;
+     min-height: 220px;
+     margin: 20px auto;
+    }
+
    .header-content{
     max-width: 65%;
    }
@@ -59,4 +65,24 @@
    .header-content button{
     padding: 2vw 4vw;
    }
+}
+
+@media (max-width:500px) {
+    .header{
+     height: 60vw;
+     min-height: 200px;
+    }
+
+    .header-content{
+     max-width: 78%;
+     left: 5vw;
+    }
+
+    .header-content h2{
+     font-size: max(6vw,22px);
+    }
+
+    .header-content button{
+     padding: 10px 18px;
+    }
 }
